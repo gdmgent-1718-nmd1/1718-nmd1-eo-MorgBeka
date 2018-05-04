@@ -45,8 +45,8 @@ h5 {
 
 
 div.positief{
-    width: 800px;
-    height: 1000px;
+    width: 50%;
+    height: auto;
     border-width: 2px;
     border-color: rgb(193, 248, 255);
     border-style: solid;
@@ -55,8 +55,8 @@ div.positief{
 }
 
 div.negatief{
-    width: 800px;
-    height: 1000px;
+    width: 50%;
+    height: auto;
     border-width:2px;
     border-color: rgb(193, 248, 255);
     border-style: solid;
@@ -76,9 +76,10 @@ section.pukkelpop{
     
 }
 
-section.rockWerchter{
+section.TheGreatEscape{
     display: flex;
-   
+    height: 1300px;
+ 
 }
 img{
     width: 300px;
