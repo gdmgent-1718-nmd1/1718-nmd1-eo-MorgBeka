@@ -17,6 +17,8 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
+/* CONCURRENTIEANALYSE */
+
 h2 {
     font-size: 23px;
 
@@ -29,26 +31,23 @@ h2.titel{
 }
 
 h3 {
-    color: green;
-    font-size: 20px
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 h4 {
-    color: red;
-    font-size: 20px
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+    
 }
-
-h5 {
-    font-size: 17px
-}
-
-
 
 div.positief{
     width: 50%;
     height: auto;
     border-width: 2px;
-    border-color: rgb(193, 248, 255);
+    border-color: white;
     border-style: solid;
     margin: 5px 5px 20px 5px;
   
@@ -57,8 +56,8 @@ div.positief{
 div.negatief{
     width: 50%;
     height: auto;
+    border-color: white;
     border-width:2px;
-    border-color: rgb(193, 248, 255);
     border-style: solid;
     margin: 5px 5px 20px 5px;
    
@@ -86,5 +85,139 @@ img{
     border-radius: 5px;
    
 }
+
+
+/* DIGITAL STYLEGUIDE */
+/* button */
+a.btn{
+    background-color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 80px;
+    color: #51CCA9;
+    border: 1px solid #51CCA9;
+
+}
+
+a.btn:hover{
+    background-color: #51CCA9;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* navigatie - tickets */
+
+
+a.tickets{
+    background-color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 80px;
+    color: tomato;
+}
+
+a.tickets:hover{
+    background-color: white;
+    color: #51CCA9; 
+    transition: 0.5s;
+ 
+
+}
+
+/* navigatie - line-up */
+
+a.line-up{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 80px;
+    color: tomato;
+}
+
+a.line-up:hover{
+    color: #51CCA9; 
+    transition: 0.5s;
+
+}
+
+
+/* navigatie - workshop */
+
+a.workshop{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 80px;
+    color: tomato;
+}
+
+a.workshop:hover{
+    color: #51CCA9; 
+    transition: 0.5s;
+
+}
+
+/* navigatie - praktisch */
+
+a.praktisch{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 80px;
+    color: tomato;
+}
+
+a.praktisch:hover{
+    color: #51CCA9; 
+    transition: 0.5s;
+
+}
+
+
+
+.navigatie{
+    margin-top: 5%;
+    margin-left: 5%; 
+ 
+}
+
+/* tussentitels */
+
+
+h5 {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Droid Serif;
+    color: #51CCA9;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+
+h5:before {
+    content: "";
+    display: block;
+    border-top: solid 1.2px #707070;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+}
+
+.h5 span {
+    background:#ebf0f2;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.tussentitels {
+    margin-top: 10%;
+}
+
+
+
+
+
 
 
