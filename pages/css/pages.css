@@ -19,15 +19,13 @@ img {
 
 /* CONCURRENTIEANALYSE */
 
-h2 {
-    font-size: 23px;
 
-}
 
-h2.titel{
+h2.titelconcurrentie{
     padding: 2%;
-    background-color: rgb(193, 248, 255);
+    background-color: #51CCA9;
     text-align: center;
+    color: white;
 }
 
 h3 {
@@ -88,6 +86,13 @@ img{
 
 
 /* DIGITAL STYLEGUIDE */
+
+h2 {
+    font-size: 23px;
+    margin-top: 5%;
+    
+}
+
 /* button */
 a.btn{
     background-color: white;
@@ -105,6 +110,21 @@ a.btn:hover{
     transition: 0.5s;
 }
 
+a.btn2{
+    background-color: #51CCA9;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid #51CCA9;
+
+}
+
+a.btn2:hover{
+    background-color: white;
+    color: #51CCA9;
+    transition: 0.5s;
+}
 
 /* navigatie - tickets */
 
@@ -185,11 +205,10 @@ a.praktisch:hover{
 h5 {
     position: relative;
     text-align: center;
-    margin-top: 20px;
-    font-family: Droid Serif;
+    margin-top: 15px;
+    font-family: open sans;
     color: #51CCA9;
-    font-size: 1.3rem;
-    margin-top: 0;
+    font-size: 30px;
 }
 
 
@@ -211,13 +230,159 @@ h5:before {
     z-index: 5;
 }
 
+/* Fonts */
+
 .tussentitels {
     margin-top: 10%;
 }
 
+.titel{
+    color: #51CCA9;
+    font-family: open sans; 
+    font-size: 30px;
+}
+
+.tussentitel{
+    color: #51CCA9;
+    font-family: open sans;
+    font-size: 26px;
+}
+
+.broodtekst{
+    color: black;
+    font-family: open sans;
+    font-size: 20px;
+}
 
 
+/* Contact formulier */
+
+.div{
+    border-bottom: 1px solid #51CCA9;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.title{
+    float: left;
+    width: 187px;
+    text-align: left;
+    padding-left: 10px; 
+    background-color: #51CCA9;
+    color: white;
+    
+}
+
+.submit{
+    text-align: right;
+    background-color: #51CCA9;
+    color: white;
+
+}
 
 
+.inpunt{
+    border: #51CCA9 3px solid;
+}
 
+/* Nieuwsbrief */
 
+.nieuwsbrief{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.contactformulier{
+    display: flex;
+    flex-direction: column;
+
+}
+.flex-container{
+    display: flex;
+    margin-top: 10%;
+  
+}
+
+/* Kleuren */
+
+.kleur1{
+    background-color:#62bca2;
+    border: 1px solid #62bca2;
+    padding: 10px; 
+    width: 150px;
+    margin-top: 3%;
+    color: white;
+}
+
+.kleur2{
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 10px; 
+    width: 150px;
+    color: white;
+
+}
+
+.kleur3{
+    background-color: #fdd18d;
+    border: 1px solid #fdd18d;
+    padding: 10px; 
+    width: 150px;
+    color: white;
+
+}
+
+.kleur4{
+background-color: #ffffff;
+border: 1px solid #000000;
+padding: 10px; 
+width: 150px;
+color: black;
+
+}
+
+/* Afbeelding Line-up */
+
+.container{
+    position: relative;
+    width:50%;
+}
+
+.pearlred{
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .pearlred {
+  opacity: 0.3;
+  
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.meerinfo {
+  background-color: #51CCA9;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+}
