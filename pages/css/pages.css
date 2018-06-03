@@ -198,12 +198,15 @@ a.praktisch:hover{
     width: 100%;
     background-position:cover;
     background-repeat:no-repeat;
-}
-
-.navigatie > a{
-    margin-top:50px;
 
 }
+
+.navigatie>a{
+    padding-top: 50px;
+
+}
+
+
 /* tussentitels */
 
 
